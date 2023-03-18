@@ -1,0 +1,137 @@
+/* Basic CSS reset */
+
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Albert Sans', sans-serif;
+    color: black;
+}
+
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+h2, h3{
+    color: #FFFCF8;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* You start your css below */
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 5px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.login_sektion {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.login_symbol {
+    margin-right: 5px;
+}
+
+.billed_sektion {
+    background-image: url('../img/banner.jpg');
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hovedindhold {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lejeoplysninger {
+    background-color: #FFB703;
+    width: 300px;
+    padding: 25px;
+    color: #FFFCF8;
+}
+
+.udstyrssektion {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #FFFCF8;
+    padding: 20px;
+    -webkit-box-shadow: -4px 7px 16px 0px rgba(0,0,0,0.22); 
+    box-shadow: -4px 7px 16px 0px rgba(0,0,0,0.22);
+}
+
+.formular {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+label {
+    display: block;
+    text-align: right;
+    margin: 10px 5px 0 0;
+    padding: 10px;
+    background-color: #FFB703;
+    color: #FFFCF8;
+    border-radius: 10px;
+}
+
+
+label:nth-child(2n) {
+    background-color: #474747;
+    color: #FFFCF8;
+}
+
+.checkboks {
+    margin-left: 10px;
+}
+
+.flexsektion {
+    width: 275px;
+    margin: 25px;
+}
+
+.videreknap {
+    background-color: #FFB703;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 8rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.totaldkk {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.totalindhold {
+    padding: 10px;
+    background-color: #FFB703;
+}

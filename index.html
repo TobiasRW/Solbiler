@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solbiler</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script> -->
+<script src="https://kit.fontawesome.com/792c2f7dda.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="header-nav">
+            <a href="/index.html" class="logo"><img src="/img/logo.png" alt="logo"></a>
+            <ul class="nav-menu">
+                <li class="nav-item upper-item"><a href="#" class="nav-link">Udlejning</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Om Os</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Beliggenheder</a></li>
+            </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+        </nav>
+        <section class="hero">
+            <div class="call-to-action">
+                <h1>Solbiler</h1>
+                <h2>En bil til hver smag</h2>
+                <div class="cta-btn">
+                    <a href="">Lej en bil</a>
+                    <a href="/omos.html">Læs om os</a>
+                </div>
+            </div>
+            <figure class="car-hero">
+                <img src="/img/car-hero.png" alt="">
+                <div class="white-box"></div>
+            </figure>
+        </section>
+    </header>
+    <main>
+        <section class="lease-cont">
+            <form id="formular" class="formular" action="" method="">
+                <h3 class="formular_overskrift">Find bilen som passer dig</h3>
+    
+                <div class="formular_felter">
+                    <div>
+                        <label for="afhentning" class="etiket">Jeg henter den</label>
+                        <input type="date" id="afhentning" required>
+                    </div>
+    
+                    <div>
+                        <label for="aflevering" class="etiket">Jeg afleverer den</label>
+                        <input type="date" id="aflevering" required>
+                    </div>
+    
+                    <div>
+                        <label for="personer" class="etiket">Antal personer</label>
+                        <select id="personer" class="etiket" required>
+                            <option value="1">1 person</option>
+                            <option value="2">2 personer</option>
+                            <option value="3">3 personer</option>
+                            <option value="4">4 personer</option>
+                            <option value="5">5 personer</option>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <label for="kufferter" class="etiket">Antal kufferter</label>
+                        <select id="kufferter">
+                            <option value="0">0 - kun taske</option>
+                            <option value="1">1 kuffert</option>
+                            <option value="2">2 kufferter</option>
+                            <option value="3">3 kufferter</option>
+                            <option value="4">4 kufferter</option>
+                        </select>
+                    </div>
+                </div>
+    
+                <div class="formular_knap">
+                    <button id="knap" class="knap" type="submit">Søg</button>
+                </div>
+            </form>
+
+            <div class="text-box">
+                <h4>Uanset hvor langt</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae non reprehenderit porro sunt adipisci, ea ab sequi? Labore necessitatibus eligendi excepturi reiciendis deleniti deserunt qui..</p>
+            </div>
+        </section>
+
+        <div class="text-box-lease">
+            <h5>Biler tilgængelig til leje</h5>
+        </div>
+
+        <section class="bil_sektion" id="bil_sektion">
+            <p class="do-search">...biler vises efter søgning...</p>
+        </section>
+
+        <template id="skabelon_output">
+            <div class="bil">
+                <img>
+                <div class="bilMM"></div>
+                <div class="bildetaljer">
+                    <div class="kategori">Kategori: </div>
+                    <div class="antalpersoner">Personer: </div>
+                    <div class="antalkufferter">Kufferter: </div>
+                </div>
+                <div class="prisogbook">
+                    <div class="lejeudgift"></div>
+                    <a href="#" class="booknu_knap">Book nu</a>
+                </div>
+            </div>
+        </template>
+    </main>
+    <footer>
+       <section class="airports">
+        <h6 class="footer-title">Lufthavne med Solbiler</h6>
+        <ul>
+            <li>Aarhus Lufthavn</li>
+            <li>Aalborg Lufthavn</li>
+            <li>Billund Lufthavn</li>
+            <li>København Lufthavn</li>
+            <li>Odense Lufthavn</li>
+        </ul>
+       </section>
+       <section class="locations-rent">
+        <h6 class="footer-title">Billeje i hele Danmark</h6>
+        <ul>
+            <li>Aarhus</li>
+            <li>Aalborg</li>
+            <li>Billund</li>
+            <li>Herning</li>
+            <li>København</li>
+            <li>Odense</li>
+            <li>Middelfart</li>
+            <li>Slagelse</li>
+            <li>Vejen</li>
+        </ul>
+       </section>
+       <section class="footer-contact">
+        <h6 class="footer-title">Kontakt Solbiler</h6>
+        <ul>
+            <li>solbilerdk@gmail.com</li>
+            <li>12 34 56 78</li>
+            <li>Hovedkontor: Solvej 14, 8000 Aarhus C</li>
+        </ul>
+       </section>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

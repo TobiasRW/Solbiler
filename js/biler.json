@@ -1,0 +1,68 @@
+{
+    "billiste": [{
+            "bilmaerke": "BMW B6",
+            "billede": "img/bmw-B6.png",
+            "billedtekst": "Billede af udlejningsbil",
+            "kategori": "Mellemklasse",
+            "personer": "5",
+            "kufferter": "2",
+            "tillaeg": "60"
+        },
+        {
+            "bilmaerke": "BMW E4",
+            "billede": "img/bmw-E4.png",
+            "billedtekst": "Billede af udlejningsbil",
+            "kategori": "Mellemklasse",
+            "personer": "4",
+            "kufferter": "0",
+            "tillaeg": "70"
+        },
+        {
+            "bilmaerke": "BMW E7",
+            "billede": "img/bmw-E7.png",
+            "billedtekst": "Billede af udlejningsbil",
+            "kategori": "Overklasse",
+            "personer": "4",
+            "kufferter": "1",
+            "tillaeg": "120"
+        },
+        {
+            "bilmaerke": "BMW I5",
+            "billede": "img/bmw-I5.png",
+            "billedtekst": "Billede af udlejningsbil",
+            "kategori": "Overklasse",
+            "personer": "2",
+            "kufferter": "2",
+            "tillaeg": "110"
+        },
+        {
+            "bilmaerke": "BMW M4",
+            "billede": "img/bmw-M4.png",
+            "billedtekst": "Billede af udlejningsbil",
+            "kategori": "Mellemklasse",
+            "personer": "3",
+            "kufferter": "2",
+            "tillaeg": "90"
+        },
+        {
+            "bilmaerke": "BMW X3",
+            "billede": "img/bmw-X3.png",
+            "billedtekst": "Billede af udlejningsbil",
+            "kategori": "Minivan",
+            "personer": "5",
+            "kufferter": "4",
+            "tillaeg": "80"
+        },
+        {
+            "bilmaerke": "BMW X5",
+            "billede": "img/bmw-X5.png",
+            "billedtekst": "Billede af udlejningsbil",
+            "kategori": "Minivan",
+            "personer": "5",
+            "kufferter": "4",
+            "tillaeg": "10"
+        }
+    ]
+}
+
+
